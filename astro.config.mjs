@@ -1,4 +1,10 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "studio-private-beta"
 
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+	studio: {
+		collections: {
+			// Define your studio collections here!
+		},
+	},
+})
